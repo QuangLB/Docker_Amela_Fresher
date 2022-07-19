@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  toi:
+    container_name: "hoten"
+    image: "ms1"
+    ports:
+      - "8090:8080"
+  lbq:
+    container_name: "lbq"
+    image: "ms2"
+    ports:
+      - "8091:8081"
